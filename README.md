@@ -1,18 +1,43 @@
-## Getting Started
+Jogo Sudoku em Java - Descrição do Projeto
+Visão Geral
+Este é um jogo de Sudoku completo desenvolvido em Java utilizando a biblioteca Swing para interface gráfica. O projeto implementa todas as funcionalidades essenciais de um jogo de Sudoku moderno, desde a geração automática de puzzles até a validação em tempo real das jogadas.
+Características Principais
+🎮 Interface Intuitiva
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Grade 9x9 interativa com campos de entrada numerica
+Subgrades 3x3 destacadas com cores alternadas para melhor navegação
+Design limpo e profissional com fontes bem dimensionadas
 
-## Folder Structure
+🧠 Geração Inteligente de Puzzles
 
-The workspace contains two folders by default, where:
+Algoritmo backtracking para gerar soluções válidas automaticamente
+Sistema de remoção estratégica de células que garante puzzles com solução única
+Puzzles balanceados com aproximadamente 40 células removidas
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+✅ Validação Avançada
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Verificação em tempo real de jogadas inválidas
+Destaque visual (vermelho) para movimentos que violam as regras do Sudoku
+Validação completa das regras: linhas, colunas e subgrades 3x3
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+🔧 Funcionalidades Extras
 
-## Dependency Management
+Novo Jogo: Gera puzzles frescos instantaneamente
+Resolver: Resolve automaticamente o puzzle atual usando algoritmo inteligente
+Verificar: Avalia se a solução está correta e completa
+Feedback Visual: Status em tempo real com mensagens informativas
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Tecnologias Utilizadas
+
+Linguagem: Java (compatível com Java 8+)
+Interface: Swing (javax.swing)
+Algoritmos: Backtracking para geração e resolução
+Estruturas de Dados: Arrays bidimensionais, ArrayList
+
+Arquitetura do Código
+O projeto segue boas práticas de programação orientada a objetos:
+
+Separação clara de responsabilidades
+Métodos bem definidos e reutilizáveis
+Interface gráfica desacoplada da lógica de negócio
+Código comentado e de fácil manutenção
